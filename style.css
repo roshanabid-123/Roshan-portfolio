@@ -1,0 +1,23 @@
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-list {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+*{
+  text-align: center;
+}
+.side-by-side {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* space between the images */
+  align-items: center;
+  text-align: center;
+}
